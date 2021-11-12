@@ -1,0 +1,33 @@
+.Menu {
+    display: flex;
+    flex-basis: 250px;
+
+    background-color: #1A2980;
+}
+
+.Menu nav {
+    flex-grow: 1;   /* Dessa forma clicando na linha do título do menu já vai funcionar, não precisa ser em cima do título */
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Menu li {
+    display: flex;
+}
+
+.Menu li a {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 1,5rem;
+}
+
+.Menu li a:hover {
+    background: #00000020;  /* Sombra quando o mouse passa em cima das opções do menu */     
+}
