@@ -10,17 +10,17 @@ import NotFound from '../../views/examples/NotFound'
 const Content = props => (
     <main className="Content">
         <Switch>
-            <Route exact path="/"> {/* O "exact" faz com que só acesse a tela home se for só a "/", caso contrário tela sem conteúdo, pode-se fazer o 404. */}
-                <Home />
-            </Route>
-            <Route path="*"> {/* Exemplo do Not Found 404. */}
-                <NotFound /> 
-            </Route>
             <Route path="/about">
                 <About />
             </Route>
             <Route path="/param/:id">
                 <Param />
+            </Route>
+            <Route exact path="/"> {/* O "exact" faz com que só acesse a tela home se for só a "/", caso contrário tela sem conteúdo, pode-se fazer o 404. */}
+                <Home />
+            </Route>
+            <Route path="*"> {/* Exemplo do Not Found 404. */}
+                <NotFound /> 
             </Route>
         </Switch>
     </main>
