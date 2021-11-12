@@ -16,6 +16,7 @@
 
 .Menu li {
     display: flex;
+    font-size: 1.3rem;
 }
 
 .Menu li a {

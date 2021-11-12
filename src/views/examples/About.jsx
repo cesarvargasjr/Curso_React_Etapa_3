@@ -3,7 +3,7 @@ import React from "react";
 const About = props => (
     <div className="About">
         <h1>Sobre</h1>
-        <p>Sistema criado!</p>
+        <h2>Sistema criado!</h2>
     </div>
 )
 
