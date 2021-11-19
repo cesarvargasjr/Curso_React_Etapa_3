@@ -1,4 +1,4 @@
-## MÓDULO 3 - react-router-dom
+## MÓDULO 3: react-router-dom
 
 ### NOME DO CURSO: React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
 
